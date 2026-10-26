@@ -4,7 +4,7 @@ subject: Álgebra Lineal
 tema: null
 type: guide
 language: es-zh
-status: partial
+status: complete
 tags:
 - algebra_lineal
 - indice
@@ -71,7 +71,7 @@ Los títulos españoles de los 27 apartados se conservan según las páginas 5�
 | Tema 3 | Aplicaciones lineales | 3.1–3.4，3.8 中少量术语 | [Tema 3](Tema_03/00_Indice.md) |
 | Tema 4 | Matriz de una aplicación lineal | 3.5–3.6；补证 1.2 的秩与 Rouché–Frobenius | [Tema 4](Tema_04/00_Indice.md) |
 | Tema 5 | Espacio cociente | 2.9；并含第一同构定理及推论 | [Tema 5](Tema_05/00_Indice.md) |
-| 未收到相应讲义 | Clasificación de endomorfismos | 4.1–4.6 | 记录待办，不编造讲义编号 |
+| 未收到相应讲义 | Clasificación de endomorfismos | 4.1–4.6 | [独立的官方模块目录](Bloque_04_Clasificacion/00_Indice.md)，教材为明确标注的自主补充 |
 
 El pie de página de Tema 5 dice «Tema 4»; su portada y contenido identifican el espacio cociente. Se registra la discrepancia sin modificar el original.
 
@@ -95,6 +95,8 @@ La página 12 recomienda obras de Castellet–Llerena, Hernández–Vázquez–Z
 
 ## Estado de producción — 编写状态
 
-Se han redactado y revisado los cuatro apartados 1.1–1.4: operaciones matriciales; sistemas, Gauss y rango; resolución numérica, LU y regresión; complejos y cuerpos. El apartado 1.3 se desarrolla como suplemento propio, pues no se ha recibido su explicación de aula específica. Los otros 23 apartados todavía no están terminados; la parte de cuerpos de 2.1 puede reutilizar el material de 1.4. Véanse [cobertura detallada](../99_Seguimiento/Cobertura_Temario.md) y [pendientes](../99_Seguimiento/Pendientes.md).
+Se han redactado y revisado los 27 apartados oficiales: 1.1–1.4, 2.1–2.9, 3.1–3.8 y 4.1–4.6. La entrega actual completa los 23 últimos con teoría y demostraciones, 70 ejemplos y 138 ejercicios propios con soluciones separadas. Los suplementos se distinguen de las fuentes de aula; faltan apuntes específicos para algunos apartados, hojas y exámenes reales, pero no apartados oficiales sin desarrollar.
+
+中文：课程正文已按大纲写齐；完成表示本库进行了内容与文件复核，不表示教授审核。部分手写批注仍待逐页核对，真实考试题型无法凭大纲推断。详见[课程入口](00_Indice.md)、[逐项覆盖](../99_Seguimiento/Cobertura_Temario.md)及[本批验证](../99_Seguimiento/Validacion_23_Apartados.md)。
 
 返回 [课程索引](00_Indice.md) 或 [总目录](../00_Indice_General.md)。

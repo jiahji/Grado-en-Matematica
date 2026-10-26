@@ -4,7 +4,7 @@ subject: Álgebra Lineal
 tema: Tema 3
 type: index
 language: es-zh
-status: partial
+status: complete
 tags:
 - algebra_lineal
 - indice
@@ -27,8 +27,20 @@ updated: 2026-10-26
 
 p. 6 将微分写为全体函数上的映射，需限制定义域。p. 16 的印刷命题把满射写成可推出双侧逆，而手写批注已改正为双射；后续正式教材采用正确条件。不能将 p. 19 的线性形式术语当作官方 3.8 对偶空间的完整材料。
 
-## Plan de redacción — 编写计划
+## Material de estudio redactado — 已写教材
 
-按定义与判别 → 基上的唯一确定 → 核/像与秩–零化度 → 子空间像与原像 → 单满双射与同构组织。证明秩–零化度时明确有限维假设，不把仅对有限维成立的维数减法推广到任意空间。当前仅有索引和原件，学习笔记待编写。
+**Español.** Los apartados 3.1–3.4 siguen las fuentes de clase; 3.8 desarrolla Hom y dual como suplemento porque la mención de forma lineal no cubre esa teoría.
+
+**中文。** 先完成 3.1–3.4，再可学习商空间 2.9；3.8 建议放在矩阵表示与换基之后。微分定义域与双侧逆条件已修正，秩–零化度的有限维假设已明列。
+
+| Oficial | Unidad / 单元 | Teoría y pruebas | Ejemplos | Ejercicios | Soluciones |
+| --- | --- | --- | --- | --- | --- |
+| 3.1 | Aplicaciones lineales / 线性映射 | [Texto / 正文](01_Linealidad/01_Teoria_Demostraciones.md) | [3](01_Linealidad/04_Ejemplos.md) | [6](01_Linealidad/05_Ejercicios.md) | [Resueltas / 已解答](01_Linealidad/06_Soluciones.md) |
+| 3.2 | Núcleo, imagen y rango–nulidad / 核、像与秩–零化度 | [Texto / 正文](02_Nucleo_Imagen_Rango/01_Teoria_Demostraciones.md) | [3](02_Nucleo_Imagen_Rango/04_Ejemplos.md) | [6](02_Nucleo_Imagen_Rango/05_Ejercicios.md) | [Resueltas / 已解答](02_Nucleo_Imagen_Rango/06_Soluciones.md) |
+| 3.3 | Inyectividad, sobreyectividad y biyectividad / 单射、满射与双射 | [Texto / 正文](03_Inyectividad_Sobreyectividad/01_Teoria_Demostraciones.md) | [3](03_Inyectividad_Sobreyectividad/04_Ejemplos.md) | [6](03_Inyectividad_Sobreyectividad/05_Ejercicios.md) | [Resueltas / 已解答](03_Inyectividad_Sobreyectividad/06_Soluciones.md) |
+| 3.4 | Isomorfismos, coordenadas y productos / 同构、坐标映射与乘积 | [Texto / 正文](04_Isomorfismos/01_Teoria_Demostraciones.md) | [3](04_Isomorfismos/04_Ejemplos.md) | [6](04_Isomorfismos/05_Ejercicios.md) | [Resueltas / 已解答](04_Isomorfismos/06_Soluciones.md) |
+| 3.8 | Espacio de aplicaciones y dual / 映射空间与对偶空间 | [Texto / 正文](05_Hom_Dual/01_Teoria_Demostraciones.md) | [3](05_Hom_Dual/04_Ejemplos.md) | [6](05_Hom_Dual/05_Ejercicios.md) | [Resueltas / 已解答](05_Hom_Dual/06_Soluciones.md) |
+
+**Estado / 状态。** 教材已写齐并经本库内容复核；这不表示教授审核，也不表示全部手写层已逐字转录。[本批验证与限制](../../99_Seguimiento/Validacion_23_Apartados.md)。
 
 返回 [课程索引](../00_Indice.md)、[官方大纲](../00_Programa_Docente.md) 或 [全库覆盖记录](../../99_Seguimiento/Cobertura_Temario.md)。

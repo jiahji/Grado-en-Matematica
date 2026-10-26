@@ -54,6 +54,7 @@ updated: 2026-10-26
 
 - 文件名优先采用无空格 ASCII、稳定数字前缀与明确数学概念。已有稳定文件名不随意改变，不产生 `final_final_v3` 等重复版本。
 - 章节按真实 Ficha Docente 组织。常规 Tema 可按需要建立 `00_Introduccion.md`、`01_Definiciones.md`、`02_Teoremas.md`、`03_Demostraciones.md`、`04_Ejemplos.md`、`05_Ejercicios.md`、`06_Soluciones.md`、`07_Repaso_Examen.md`，并建立章节索引；无内容时只登记待办，不批量创建空笔记。
+- 已写的官方 2.1–4.6 单元采用四份逻辑完整文件：`01_Teoria_Demostraciones.md`、`04_Ejemplos.md`、`05_Ejercicios.md`、`06_Soluciones.md`。理论文件内含动机、定义、完整证明、双语解释及复习；不为凑齐八文件而拆出空页。官方第 4 模块保留独立目录 `Bloque_04_Clasificacion/`，不得与讲义 `Tema_04/` 混淆。
 - 大型主题可分 `Conceptos/`、`Teoremas/`、`Demostraciones/`。名称与层级由实际内容决定。
 - 标题使用标准 Markdown 层级。行内公式用单美元符号，独立公式用单独成行的双美元符号，多步推导可用 `aligned`。能表达为 LaTeX 的公式不以图片替代，不放入代码块，展示语法除外。
 - 默认用标准 Markdown 相对链接，按实际文件位置计算；链接目标必须存在。未明确要求时不用 Wikilink，不写本机绝对路径到知识库导航中。

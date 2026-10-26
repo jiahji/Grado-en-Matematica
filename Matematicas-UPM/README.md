@@ -20,7 +20,9 @@ Biblioteca de estudio en español y chino, organizada en archivos Markdown para 
 
 截至 2026-10-26，已收到 Álgebra Lineal（线性代数）官方大纲及五份带批注讲义，共 120 页。课程为 UPM 305000100、2026–27。所有原件保留原名和原始字节，详见来源登记。
 
-[Tema 0 / 官方第 1 模块](01_Algebra/Tema_00/00_Indice.md)的四个单元已写齐：矩阵、Gauss 与秩、复数与域、数值/LU/回归，共 32 份学习笔记、25 个例题、48 道独立练习及解答。数值单元与其他扩充已明确标为自主补充，课堂细节不作虚构。其余 23 个官方小节未整体完成，继续按既定范围写作，无需等待全部资料到齐。
+[Álgebra Lineal 的全部 27 个官方小节](01_Algebra/00_Indice.md)现已写成可自学教材。本次补齐 2.1–2.9、3.1–3.8、4.1–4.6，新增 92 份学习文件、70 个例题及 138 道独立练习与解答；连同此前四单元，共 **124 份学习文件、95 个例题、186 道练习及解答**。
+
+**Español.** La teoría incorpora las demostraciones y sus condiciones; las explicaciones se ofrecen en español y chino. Los suplementos se identifican sin atribuirlos al profesor. La revisión interna no sustituye revisión humana, transcripción completa de manuscritos ni análisis de exámenes aún no recibidos. Consulte [validación y límites](99_Seguimiento/Validacion_23_Apartados.md).
 
 用户的建库要求仍保存在 [原始要求](99_Seguimiento/00_Requisitos_Originales.txt)，不计为数学来源。Cálculo 和 Fundamentos 尚缺资料。
 
@@ -31,7 +33,7 @@ Biblioteca de estudio en español y chino, organizada en archivos Markdown para 
 - [材料接收规则](00_Fuentes/README.md)：原件、页码、识别与引用。
 - [课程覆盖矩阵](99_Seguimiento/Cobertura_Temario.md)：理论、证明、习题与复核状态。
 - [待办](99_Seguimiento/Pendientes.md)、[疑点与错误](99_Seguimiento/Errores_Detectados.md)、[修改记录](99_Seguimiento/Registro_Cambios.md)。
-- [最新 Tema 0 验证](99_Seguimiento/Validacion_Tema_00.md)、[首批矩阵验证](99_Seguimiento/Validacion_Algebra_Lineal.md) 与 [初始报告](99_Seguimiento/Informe_Validacion.md)：实际检查及限制。
+- [最新 23 小节验证](99_Seguimiento/Validacion_23_Apartados.md)、[历史 Tema 0 验证](99_Seguimiento/Validacion_Tema_00.md)、[首批矩阵验证](99_Seguimiento/Validacion_Algebra_Lineal.md) 与 [初始报告](99_Seguimiento/Informe_Validacion.md)：实际检查及限制。
 - [Codex 长期规则](AGENTS.md)：后续写作和更新的约束。
 
 ## Abrir y editar — 打开与编辑
@@ -57,13 +59,13 @@ Biblioteca de estudio en español y chino, organizada en archivos Markdown para 
 | 目录 | 用途 | 当前情况 |
 | --- | --- | --- |
 | `00_Fuentes/` | 按科目保存原始课程材料及登记 | 6 份线性代数 PDF，已校验 |
-| `01_Algebra/` | Álgebra Lineal（线性代数） | 官方范围已核实，第 1 模块四个单元已写成 |
+| `01_Algebra/` | Álgebra Lineal（线性代数） | 27 个官方小节教材已写齐并经本库复核 |
 | `02_Calculo/` | Cálculo（微积分） | 仅课程入口，范围待核实 |
 | `03_Fundamentos/` | Fundamentos de Matemáticas（数学基础） | 仅课程入口，范围待核实 |
-| `90_Repaso_Global/` | 跨章节复习与综合备考 | 已接入四个单元自测，尚无真实试卷解析 |
+| `90_Repaso_Global/` | 跨章节复习与综合备考 | 已接入全课程的单元自测，尚无真实试卷解析 |
 | `99_Seguimiento/` | 覆盖、待办、审查、修改与原始要求 | 已建立初始记录 |
 
-线性代数已按真实资料建立 `Tema_00/` 至 `Tema_05/` 索引和 `00_Programa_Docente.md`；有内容时才创建学习笔记，真实试卷到达后再建 `Examenes/`。
+线性代数按真实讲义保留 `Tema_00/` 至 `Tema_05/`，官方自同态分类单独放在 `Bloque_04_Clasificacion/`，共同对应 `00_Programa_Docente.md` 的全部范围；有内容时才创建学习笔记，真实试卷到达后再建 `Examenes/`。
 
 ## Metadatos y calidad — 元数据与质量
 

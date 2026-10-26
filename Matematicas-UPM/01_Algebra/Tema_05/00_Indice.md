@@ -4,7 +4,7 @@ subject: Álgebra Lineal
 tema: Tema 5
 type: index
 language: es-zh
-status: partial
+status: complete
 tags:
 - algebra_lineal
 - indice
@@ -27,8 +27,16 @@ updated: 2026-10-26
 
 封面写 Tema 5，页脚沿用 Tema 4；保留原件并以封面、文件名和内容识别。商空间的等价类是新的对象，仿射陪集一般不是 $V$ 的向量子空间；运算良定义需要完整证明。维数减法的常用公式要明确 $V$ 有限维。
 
-## Plan de redacción — 编写计划
+## Material de estudio redactado — 已写教材
 
-先编写等价关系及良定义，再展开商空间基与坐标、自然投影及第一同构定理。需要先完成向量空间、子空间、基以及相关线性映射模块。当前没有本章正式笔记；不能将后续计划当成已完成内容。
+**Español.** El texto incluye equivalencia, operaciones bien definidas, base y dimensión del cociente, propiedad universal y primer teorema de isomorfía. Los otros dos teoremas de isomorfía son desarrollos propios, no una reproducción de la Hoja 5 ausente.
+
+**中文。** 建议先学完线性映射与同构，再学本节，保留官方编号 2.9。重点是代表元选择无关性，而不只是维数相减。
+
+| Oficial | Unidad / 单元 | Teoría y pruebas | Ejemplos | Ejercicios | Soluciones |
+| --- | --- | --- | --- | --- | --- |
+| 2.9 | Espacio cociente / 商向量空间 | [Texto / 正文](01_Cociente/01_Teoria_Demostraciones.md) | [3](01_Cociente/04_Ejemplos.md) | [6](01_Cociente/05_Ejercicios.md) | [Resueltas / 已解答](01_Cociente/06_Soluciones.md) |
+
+**Estado / 状态。** 教材已写齐并经本库内容复核；这不表示教授审核，也不表示全部手写层已逐字转录。[本批验证与限制](../../99_Seguimiento/Validacion_23_Apartados.md)。
 
 返回 [课程索引](../00_Indice.md)、[官方大纲](../00_Programa_Docente.md) 或 [全库覆盖记录](../../99_Seguimiento/Cobertura_Temario.md)。

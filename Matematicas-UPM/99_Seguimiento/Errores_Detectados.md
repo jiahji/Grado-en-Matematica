@@ -73,7 +73,7 @@ Se han identificado las incidencias siguientes mediante contraste del texto impr
 
 **中文。** 线性映射首先必须是一个对定义域每个元素都有输出的函数；尚未验证存在导数，就不能只讨论其线性性。
 
-**Estado:** 定义域条件问题已确认；应用映射单元待按正确范围编写。
+**Estado:** `Corregido en las notas`。已在 [3.1 线性映射](../01_Algebra/Tema_03/01_Linealidad/01_Teoria_Demostraciones.md) 使用多项式定义域并说明 $C^1$ 到 $C^0$ 的正确版本。
 
 ## AL-ERR-004 — Sobreyectiva frente a biyectiva / 满射与双侧逆
 
@@ -83,7 +83,7 @@ Se han identificado las incidencias siguientes mediante contraste del texto impr
 
 **中文。** 能让每个输出找到至少一个原像，只保证满射；要唯一地倒回原对象还需要单射。反例中 $(0,1)$ 和 $(0,0)$ 输出相同，因此不可能存在双侧逆。
 
-**Estado:** 印刷错误及现有手写修正均已确认；正式教材将采用双射条件，不把这一更正伪称为本库首次发现的课堂纠正。
+**Estado:** `Corregido en las notas`。已在 [3.4 同构与逆](../01_Algebra/Tema_03/04_Isomorfismos/01_Teoria_Demostraciones.md) 完整证明双射与双侧逆条件，保留原有手写更正的归属边界。
 
 ## AL-ERR-005 — Número de ecuaciones / 方程数必须独立
 
@@ -93,7 +93,7 @@ Se han identificado las incidencias siguientes mediante contraste del texto impr
 
 **中文。** 重复或相互依赖的方程不产生新的约束。原件后续已给出正确限制；教材应在第一次表述时就写清“独立方程数”，并注明后续证明来源。
 
-**Estado:** 条件缺失与后续澄清已核对；相关教材待编写。
+**Estado:** `Corregido en las notas`。[2.5 坐标与方程](../01_Algebra/Tema_02/01_Coordenadas_Ecuaciones/01_Teoria_Demostraciones.md) 使用秩而非方程总数，并配重复方程反例。
 
 ## AL-ERR-006 — Base de una suma directa / 直和中的环境空间
 
@@ -103,7 +103,7 @@ Se han identificado las incidencias siguientes mediante contraste del texto impr
 
 **中文。** “两子空间是直和”与“整个环境空间分解成它们的直和”是不同命题。反例满足直和条件但张不满环境空间，准确暴露了缺失假设。
 
-**Estado:** 原文、手写澄清与修正条件已确认；正式单元待编写。
+**Estado:** `Corregido en las notas`。[2.6 直和与补空间](../01_Algebra/Tema_02/02_Suma_Directa_Complementarios/01_Teoria_Demostraciones.md) 将拼接基的环境明确为 $U+W$，只有和为 $V$ 时才是 $V$ 的基。
 
 ## AL-ERR-007 — Columnas del cambio de base / 换基矩阵取哪一组基
 
@@ -113,7 +113,7 @@ Se han identificado las incidencias siguientes mediante contraste del texto impr
 
 **中文。** 矩阵乘标准坐标列 $e_j$ 会取出第 $j$ 列；这必须是源基第 $j$ 个向量在目标基下的坐标。把目标基自身放进去通常只会得到单位矩阵，丢失换基信息。
 
-**Estado:** 文字笔误已目视核对；沿用课堂坐标方向，不倒置符号来掩盖错误。
+**Estado:** `Corregido en las notas`。[3.6 换基](../01_Algebra/Tema_04/02_Cambio_Base_Semejanza/01_Teoria_Demostraciones.md) 沿用课堂方向，证明各列取源基在目标基下的坐标。
 
 ## AL-ERR-008 — Tipos y dimensiones en Rouché–Frobenius / 右端向量与维数排印
 
