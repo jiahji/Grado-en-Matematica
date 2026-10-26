@@ -14,7 +14,7 @@ updated: 2026-10-26
 
 Las fuentes académicas se conservan sin alterar su contenido. El catálogo registra únicamente archivos realmente recibidos; una instrucción de organización no acredita ningún resultado matemático ni requisito de examen.
 
-目前没有课程资料。建库要求另存于 [原始要求](../99_Seguimiento/00_Requisitos_Originales.txt)，不计入数学来源。
+已收到线性代数大纲与五份带批注课堂材料，详见 [来源登记](00_Catalogo_Fuentes.md)。建库要求另存于 [原始要求](../99_Seguimiento/00_Requisitos_Originales.txt)，不计入数学来源。
 
 ## Recepción y conservación — 接收与保存
 

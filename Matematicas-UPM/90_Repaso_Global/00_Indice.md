@@ -12,11 +12,11 @@ updated: 2026-10-26
 
 # Repaso global — 综合复习
 
-El repaso global se construirá a partir de unidades redactadas y revisadas, y de exámenes reales cuando estén disponibles. Todavía no hay unidades matemáticas revisadas ni pruebas de examen recibidas.
+El repaso global se construirá a partir de unidades redactadas y revisadas, y de exámenes reales cuando estén disponibles. Ya están redactadas las cuatro unidades del bloque 1; no se han recibido pruebas de examen reales.
 
 ## Alcance actual — 当前范围
 
-目前仅建立复习入口。没有已完成章节可供整合，也没有真实试卷可用于判断重点、题型分布或评分要求。实际复习材料在对应来源具备后建立。
+目前可使用 [矩阵复习与自测](../01_Algebra/Tema_00/01_Matrices/07_Repaso_Examen.md)。并可继续 [Gauss 自测](../01_Algebra/Tema_00/02_Sistemas_Gauss/07_Repaso_Examen.md)、[复数自测](../01_Algebra/Tema_00/03_Complejos_Cuerpos/07_Repaso_Examen.md)、[LU 与回归自测](../01_Algebra/Tema_00/04_Numerico_LU_Regresion/07_Repaso_Examen.md)。它们覆盖第 1 模块内部训练；尚无跨全课程综合卷，真实试卷仍未收到，不能判断命题频率或具体评分。
 
 ## Criterios de incorporación — 纳入复习的条件
 

@@ -12,15 +12,17 @@ updated: 2026-10-26
 
 # Matemáticas UPM — 数学本科双语知识库
 
-Biblioteca de estudio en español y chino, organizada en archivos Markdown para reconstruir y ampliar materiales reales de las asignaturas. Las definiciones, los enunciados y las demostraciones se redactan en español académico; las explicaciones en chino desarrollan la intuición y la estrategia matemática.
+Biblioteca de estudio en español y chino, organizada en archivos Markdown para reconstruir y ampliar materiales reales de las asignaturas. Las definiciones, los enunciados y las demostraciones se redactan en español académico; la motivación, la intuición, las estrategias y las explicaciones se ofrecen tanto en español como en chino.
 
-本库用于完整自学、证明训练、独立练习及考试准备。当前完成的是建库基础设施；收到真实课程材料后，按官方范围与课堂约定逐个知识模块编写教材。
+本库用于完整自学、证明训练、独立练习及考试准备。已开始依据线性代数真实材料编写；讲解、证明策略和例题分析也附上西班牙语，中文用于深入理解。
 
 ## Estado actual — 当前状态
 
-截至 2026-10-26，已检查现有仓库和上传文件。唯一收到的文件是用户的建库要求，已按原始字节保存在 [原始要求](99_Seguimiento/00_Requisitos_Originales.txt)。它用于规定工作方式，不是课程大纲或数学文献。
+截至 2026-10-26，已收到 Álgebra Lineal（线性代数）官方大纲及五份带批注讲义，共 120 页。课程为 UPM 305000100、2026–27。所有原件保留原名和原始字节，详见来源登记。
 
-尚未收到 Ficha Docente / Guía Docente（课程大纲）、Apuntes（课堂笔记）、教授资料、习题或试卷。因此尚未确定任何官方 Tema（课程单元），尚未编写正式数学学习笔记。Álgebra、Cálculo、Fundamentos de Matemáticas 是用户指定的初始分类，不代表已核实其课程代码、学年或教学安排。
+[Tema 0 / 官方第 1 模块](01_Algebra/Tema_00/00_Indice.md)的四个单元已写齐：矩阵、Gauss 与秩、复数与域、数值/LU/回归，共 32 份学习笔记、25 个例题、48 道独立练习及解答。数值单元与其他扩充已明确标为自主补充，课堂细节不作虚构。其余 23 个官方小节未整体完成，继续按既定范围写作，无需等待全部资料到齐。
+
+用户的建库要求仍保存在 [原始要求](99_Seguimiento/00_Requisitos_Originales.txt)，不计为数学来源。Cálculo 和 Fundamentos 尚缺资料。
 
 ## Navegación — 导航
 
@@ -29,7 +31,7 @@ Biblioteca de estudio en español y chino, organizada en archivos Markdown para 
 - [材料接收规则](00_Fuentes/README.md)：原件、页码、识别与引用。
 - [课程覆盖矩阵](99_Seguimiento/Cobertura_Temario.md)：理论、证明、习题与复核状态。
 - [待办](99_Seguimiento/Pendientes.md)、[疑点与错误](99_Seguimiento/Errores_Detectados.md)、[修改记录](99_Seguimiento/Registro_Cambios.md)。
-- [验证报告](99_Seguimiento/Informe_Validacion.md)：实际执行的检查及其限制。
+- [最新 Tema 0 验证](99_Seguimiento/Validacion_Tema_00.md)、[首批矩阵验证](99_Seguimiento/Validacion_Algebra_Lineal.md) 与 [初始报告](99_Seguimiento/Informe_Validacion.md)：实际检查及限制。
 - [Codex 长期规则](AGENTS.md)：后续写作和更新的约束。
 
 ## Abrir y editar — 打开与编辑
@@ -54,19 +56,19 @@ Biblioteca de estudio en español y chino, organizada en archivos Markdown para 
 
 | 目录 | 用途 | 当前情况 |
 | --- | --- | --- |
-| `00_Fuentes/` | 按科目保存原始课程材料及登记 | 未收到课程材料 |
-| `01_Algebra/` | Álgebra（代数） | 仅课程入口，范围待核实 |
+| `00_Fuentes/` | 按科目保存原始课程材料及登记 | 6 份线性代数 PDF，已校验 |
+| `01_Algebra/` | Álgebra Lineal（线性代数） | 官方范围已核实，第 1 模块四个单元已写成 |
 | `02_Calculo/` | Cálculo（微积分） | 仅课程入口，范围待核实 |
 | `03_Fundamentos/` | Fundamentos de Matemáticas（数学基础） | 仅课程入口，范围待核实 |
-| `90_Repaso_Global/` | 跨章节复习与综合备考 | 尚无可汇总的已审核模块 |
+| `90_Repaso_Global/` | 跨章节复习与综合备考 | 已接入四个单元自测，尚无真实试卷解析 |
 | `99_Seguimiento/` | 覆盖、待办、审查、修改与原始要求 | 已建立初始记录 |
 
-`Tema_XX/`、`00_Programa_Docente.md` 和 `Examenes/` 在对应资料到达并确认后建立。没有实际内容时不生成批量空白笔记。
+线性代数已按真实资料建立 `Tema_00/` 至 `Tema_05/` 索引和 `00_Programa_Docente.md`；有内容时才创建学习笔记，真实试卷到达后再建 `Examenes/`。
 
 ## Metadatos y calidad — 元数据与质量
 
 正式学习笔记记录 `title`、`subject`、`tema`、`type`、`language`、`status`、`tags`、`sources` 和 `updated`。`sources` 中仅列已核实、实际存在的来源文件，路径相对于该笔记；正文进一步标明页码或准确定位。自行编写的补充内容明确标注，不伪造教授来源。
 
-学习笔记的类型使用 `definition`、`theorem`、`proof`、`example`、`exercises`、`review`；行政文件另外使用 `guide`、`index`、`rules`、`tracking`。当前文件中的 `sources: []` 表示尚无数学资料，`status: partial` 表示项目内容仍待补充。
+学习笔记的类型使用 `definition`、`theorem`、`proof`、`example`、`exercises`、`review`；行政文件另外使用 `guide`、`index`、`rules`、`tracking`。行政文件可保留 `sources: []`；正式笔记通过 `sources` 登记实际数学原件。`status: partial` 表示相应内容仍待补充。
 
 `complete` 仅用于实际写成且通过内容复核的学习笔记，不等于已经过人类教授审核。自动链接或 YAML 检查不能代替数学推理审查。
